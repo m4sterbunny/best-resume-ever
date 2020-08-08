@@ -2,17 +2,204 @@
 <div class="resume">
   <div class="leftCol m_box">
     <div class="shadow"></div>
-    <div class="section-headline">
-      Skills
+    <div class="heading" id="myselfpic">
     </div>
-   
+    
+    <div class="section-headline">
+      Harrie Bickle
+    </div>
+    <div class="section-headline">
+      Technical Writer
+    </div>
+    <div class="item">
+      <div class="icon">
+        <i class="material-icons">account_circle</i>
+      </div>
+      <div class="text">
+        <ul>
+          <li> Born {{person.birth.year}} in {{person.birth.location}}</li>
+        </ul>
+      </div>
+    </div>
 
-   
-<!-- pg 2
-<!-- Visual Represent of Skills -->
+    <div class="item">
+      <div class="icon">
+        <i class="material-icons">location_city</i>
+      </div>
+      <div class="text">
+        <ul>
+          <li>{{person.contact.city}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <a :href="'tel:'+person.contact.phone">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">phone</i>
+        </div>
+        <div class="text">
+          {{person.contact.phone}}
+        </div>
+      </div>
+    </a>
+
+    <a :href="'mailto:'+person.contact.email">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">email</i>
+        </div>
+        <div class="text">
+         <p> {{person.contact.email}}</p>
+        </div>
+      </div>
+    </a>
+
+    <a :href="'https://github.com/'+person.contact.github" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="fa fa-github"></i>
+        </div>
+        <div class="text">
+          <span>@{{person.contact.github}}</span>
+        </div>
+      </div>
+    </a>
+
+    <a :href="person.contact.website" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">language</i>
+        </div>
+        <div class="text">
+          <span>{{person.contact.website}}</span>
+        </div>
+      </div>
+    </a>
+
+<a :href="person.contact.upwork" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">language</i>
+        </div>
+        <div class="text">
+          <span>Upwork</span>
+        </div>
+      </div>
+    </a>
+
+<a :href="person.contact.linkedIn" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">language</i>
+        </div>
+        <div class="text">
+          <span>{{person.contact.linkedIn}}</span>
+        </div>
+      </div>
+    </a>
+
+ 
+<!-- Referees -->
 
     <div class="item last">
+      <div class="section-headline">
+        Referees
+      </div>
+    </div>
+    
+<!-- referee 1 -->
+    <div class="item">
+      <div class="text">
+        <ul>
+          <li>{{person.referee1.name}}</li>
+        </ul>
+        </div>
+    </div>
 
+  <a :href="person.referee1.companysite" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">language</i>
+        </div>
+        <div class="text">
+          <span>{{person.referee1.company}}</span>
+        </div>
+      </div>
+    </a>
+    <div class="item">
+        <div class="text">
+        <ul>
+          <li>{{person.referee1.city}}</li>
+          <li>{{person.referee1.project}}</li>
+        </ul>
+        </div>
+    </div>
+<a :href="'mailto:'+person.referee1.email">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">email</i>
+        </div>
+        <div class="text">
+         <p> {{person.referee1.email}}</p>
+        </div>
+      </div>
+    </a>
+<div></div>&nbsp;&nbsp;
+
+<!-- referee 2 -->
+    <div class="item">
+      <div class="text">
+        <ul>
+          <li>{{person.referee2.name}}</li>
+          <li>{{person.referee2.phone}}</li>
+        </ul>
+        </div>
+    </div>
+
+  <a :href="person.referee2.companysite" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">language</i>
+        </div>
+        <div class="text">
+          <span>{{person.referee2.company}}</span>
+        </div>
+      </div>
+    </a>
+    <div class="item">
+        <div class="text">
+        <ul>
+          <li>{{person.referee2.city}}</li>
+          <li>{{person.referee2.project}}</li>
+        </ul>
+        </div>
+    </div>
+    <a :href="'mailto:'+person.referee2.email">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">email</i>
+        </div>
+        <div class="text">
+         <p> {{person.referee2.email}}</p>
+        </div>
+      </div>
+    </a>
+    
+
+<!-- end referee 2-->
+  </div>   
+ 
+
+
+<!-- Make all these Page 2 -->
+
+<!-- Visual Represent of Skills 
+
+    <div class="item last">
+      <div class="section-headline">
+        Skills
+      </div>
       <div class="skill" v-for="skill in person.skills">
         <div class="right">
           <span>{{skill.name}}</span>
@@ -25,56 +212,18 @@
       </div>
     </div>
 
-<!-- Visual Represent of software.  -->
-
-    <div class="item last">
-      <div class="section-headline">
-        Software
-      </div>
-      <div class="skill" v-for="software in person.software">
-        <div class="right">
-          <span>{{software.name}}</span>
-          <div class="progress">
-            <div class="determinate" :style="'width: '+software.level+'%;'">
-              <i class="fa fa-circle"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  
- </div>
-    
+<!-- </div>
+      -->
 
 
-<!-- main page == Experience 
+<!-- 2nd page == Alignment 
   <div class="rightCol">
-    <div class="section-headline">Work Experience</div>
-    <div class="block" v-for="experience in person.experience">
-      <div class="block-helper"></div>
-      <div class="headline">{{experience.position}} - {{experience.company}}</h3>
-        <div class="subheadline">{{experience.timeperiod}}</div>
-        <p class="info">
-          {{experience.description}}
-        </p>
-      </div>
-    </div> -->
-
-<!-- main page == Education 
-    <div class="section-headline">Education</div>
-    <div class="block" v-for="education in person.education">
-      <div class="block-helper"></div>
-      <div class="headline">{{education.degree}}</div>
-      <p class="info">
-        {{education.timeperiod}}, {{education.description}}
-      </p>
+    <div class="title">
+      <h2>{{person.name.first}} {{person.name.last}}</h2>
+      <div>{{person.position}}</div>
     </div>
-  </div>
--->
 
-<div class="rightCol">
-<div class="section-headline2">Alignment</div>
+    <div class="section-headline">Alignment</div>
     <div class="block" v-for="allignment in person.allignment">
       <div class="block-helper"></div>
       <div class="headline">{{allignment.position}} - {{allignment.company}}</h3>
@@ -84,7 +233,32 @@
         </p>
       </div>
     </div>
-</div>
+-->
+
+
+<!-- 1st Page == Experience and Education -->
+
+<div class="rightCol">
+   
+    <div class="section-headline">Work Experience</div>
+    <div class="block" v-for="experience in person.experience">
+      <div class="block-helper"></div>
+      <div class="headline">{{experience.position}} - {{experience.company}}</h3>
+        <div class="subheadline">{{experience.timeperiod}}</div>
+        <p class="info">
+          {{experience.description}}
+        </p>
+      </div>
+    </div>
+    <div class="section-headline">Education</div>
+    <div class="block" v-for="education in person.education">
+      <div class="block-helper"></div>
+      <div class="headline">{{education.degree}}</div>
+      <p class="info">
+        {{education.timeperiod}}, {{education.description}}
+      </p>
+    </div>
+  </div>
 
 <!-- removing far right col 
   <div class="farRightCol">
@@ -97,7 +271,6 @@
       </div>
     </div>
   </div>
-
 -->
 
   <div style="clear:both;"></div>
@@ -146,13 +319,13 @@ a {
         color: rgba(0,0,0,0.7);
         padding-top: 0;
         margin-top: 0;
-        letter-spacing: 7px;
+        letter-spacing: 6px;
         font-weight: 400;
     }
     div {
         margin: 0;
         padding: 0;
-        line-height: 15pt;
+        line-height: 12pt;
         font-weight: 300;
         font-weight: 500;
         letter-spacing: 2px;
@@ -178,8 +351,8 @@ a {
     font-size: 10pt;
     opacity: 0.8;
     margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #3f3d3c;
 }
 .section-headline2 {
@@ -250,7 +423,7 @@ h4 {
     opacity: 1;
 }
 .farRightCol {
-    width: 30%;
+    width: 3%;
     height: 100%;
     float: right;
     display: flex;
@@ -329,14 +502,14 @@ h4 {
     }
 }
 .rightCol {
-    width: 65%;
-    height: 98%;
+    width: 64%;
+    height: 99%;
     float: left;
     display: flex;
     padding-left: 8px;
     flex-direction: column;
     .block {
-        width: 99%;
+        width: 98%;
         position: relative;
         background-color: #ffffff;
         padding: 10px;
@@ -354,7 +527,6 @@ h4 {
             display: block;
             font-size: 13px;
             font-weight: 300;
-            margin-top: 2px;
         }
         .info {
             font-size: 12px;
@@ -403,12 +575,13 @@ h4 {
             }
             .item:last-of-type {
                 border-bottom-style: none;
+                border-bottom-style: none;
             }
         }
     }
 }
 .leftCol {
-    width: 30%;
+    width: 34%;
     height: 100%;
     float: left;
     padding: 0;
@@ -431,7 +604,7 @@ h4 {
         background-size: cover;
         background-position: center;
         position: relative;
-        width: 100%;
+        width: 101%;
         height: 277px;
     }
    

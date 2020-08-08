@@ -15,6 +15,14 @@
       </router-link>
     </div>
     <div class="preview">
+      <router-link v-bind:to="'/resume/material-dark-mine'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-material-dark.png" />
+          <span>material-dark</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
       <router-link v-bind:to="'/resume/material-dark-projects'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-material-dark-projects.png" />

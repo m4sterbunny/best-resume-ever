@@ -1,0 +1,199 @@
+/* #*/ export const PERSON = `
+name:
+  first: Harrie
+  middle: 
+  last: Bickle
+about: An experienced Technical Writer and Substantive Editor; skilled at making technical content tuned to the customer. 
+position: Technical Writer
+
+birth:
+  year: 1973
+  location: London
+
+experience:
+- company: Technobunnies.com (Cape Town) and Upwork (Everywhere)
+  position: Technical Writer / Project Manager
+  timeperiod: since January 2015
+  description: Technical writing (Documentation, Case Studies, HowTos, Articles), Reporting (NGO and Educational Data, including project-managing data analytics), and Editing.
+  website: https://www.technobunnies.com
+
+- company: High School Science London and Cape Town
+  position: Head of Department
+  timeperiod: 2005–2015
+  description: Promoted in 2nd year of teaching. 4 long term contracts teaching Physics, Biology, and Chemistry to all levels. Met constant rolling hard deadlines. Scaffolded technical concepts to the audience's level. Accommodated range of audience knowledge and learning styles. 
+
+- company: Oberthur Smart-Cards
+  position: System Design Analyst
+  timeperiod: 2002
+  description: Liaison between business & development teams negotiating functionality changes; database design (Oracle) & design changes; software testing & roll-back. The unit was disbanded when sim-reading keyboards were not widely adopted.
+
+- company: Peoplebank.com
+  position: Software Tester
+  timeperiod: 2001
+  description: Testing updates & managing roll-backs of this web-based job application and candidate management system (Oracle). Liaison between the sales & development teams; negotiating design changes with developers promised by the sales team to our customers. The Manchester Guardian purchased the product, and the team was disbanded.
+
+- company: Freefund.com
+  position: Data Manager
+  timeperiod: 1999–2000
+  description: 2nd person in the London office of a Swedish startup. Responsible for digitizing scholarships data to be the hook of the site, manager of the data-entry team (10) & customer service team (2). Onboarded with a SQL database not performing as per spec; quickly developed an equivalent in MS Access, allowing work to continue. 
+
+allignment:
+- lp: Customer Obsession
+  position: Technical Writer. Qualities 
+  company: High School Teacher, Technobunnies
+  timeperiod: Decade as a teacher, 5+ years as a Technical Writer
+  description: Teaching and documentation are built on empathy with stakeholders that own little domain knowledge. I bring over 15 years of experience in providing highly-technical information to audiences whose abilities range widely. As one of my freelance clients said, "Harrie was amazing and so pleasant to work with. She asks all the right questions, is patient and happy to help clarify where needed. She thinks things out and has good logic".
+
+- lp: Ownership
+  position: Technical Writer and Software Tester. Experience
+  company: Technobunnies
+  timeperiod: 5+ years
+  description: As a Technical Writer, I have assisted with developer documentation, user documentation, case studies, and articles. As a Software Tester, I worked with engineering to improve the user experience and as a Technical Writer I continue to add bug reports or feature requests. I have yet to work with a company that truly leverages metrics to inform documentation reviews. I am poised to do so with a wealth of experience in experimental design and statistical analyses.
+
+- lp: Right Alot & Learn and Be Curious 
+  position: Mastering Complex Topics
+  company: Technobunnies + Further Education 
+  timeperiod: 5 years + >Decade
+  description: When I left teaching, I was competent in the Microsoft suite and Windows. Now I work in IDEs, SDKs, and the command line, and contribute to clients' repos. I can build static sites; set up and connect cloud VMs, storage, and functions; and massage HTML and CSS. I don't just use these technologies; I assist clients to communicate how they leverage them to potential clients in articles and case studies. If I don't know a specialist lexicon, then I learn it, for example, when I jumped in neckdeep in the botanical lexicon required for The Tree App. If you check out my further education, you will see that I am something of a committed life-long learner! 
+
+- lp: Hire & Develop the best & Insist on Highest Standards
+  position: Superior Written and Verbal Communication Skills
+  company: Technobunnies + Teaching + Software Testing
+  timeperiod: 5 years + Decade
+  description: In my role as a Techincal Writer, I am responsible for creating error-free documentation and copy. I have an exceptional ability to spot errors that supports my roles as Technical Writer, Software Tester, and Data Analyst. The competency set is the same – requiring minute attention to detail. I have a fantastic short term memory that serves me well when handling large volumes of data or text. I am also a proficient public speaker. This talent was honed in teaching and reignited for one of the NGOs that I assisted whilst freelancing. As one of my freelancing clients said "Harrie is amazing. Her thoughtful approach to scope the work and in communication contributes to a positive and productive working relationship. I highly recommend Harrie."
+
+- lp: Think Big
+  position: Visuals
+  company: Technobunnies 
+  timeperiod: 5+ years
+  description: As a Technical Writer, I apply screen-shots or reductive visuals to communicate complex topics. This built on a decade of experience as a teacher doing the same. I have also produced my first video explainer. As one of my freelancing clients said, "Harrie is a topnotch writer and an absolute pleasure to work with. She's capable of distilling complex technical concepts and explaining them in a clear, engaging way."
+
+education:
+
+- degree: PGCE Teacher of Science – Goldsmiths College 
+  timeperiod: 2003–2004
+  description: Professional Teaching Qualification
+
+- degree: NVQ2 Motorcycle Mechanics – Merton Technical College 
+  timeperiod: 2002–2003
+  description: The dot com crash coincided with a gearbox freeze.
+
+- degree: Ph.D. Zoology – Leicester University
+  timeperiod: 1995–1998
+  description: Sexual Selection in Parus Major 
+
+- degree: Bachelor of Science – University of Glasgow
+  timeperiod: 1991–1995
+  description: Zoology and Parasitology
+# skill level goes 0 to 100
+skills:
+- name: Markdown
+  level: 99
+- name: ReStructured Text
+  level: 90
+- name: Docker
+  level: 10
+- name: Kubernetes
+  level: 10
+- name: Google Cloud SDK 
+  level: 10
+- name: Git Bash
+  level: 50
+- name: Bash 
+  level: 10 
+- name: HTML5
+  level: 20
+- name: CSS3
+  level: 20
+- name: JavaScript
+  level: 15
+- name: JSON
+  level: 20
+- name: Node.js
+  level: 5
+- name: VB
+  level: 25
+- name: MS DAX
+  level: 15
+- name: Open API 3
+  level: 50
+
+
+software:
+- name: Adobe InDesign
+  level: 60
+- name: MS Office Suite
+  level: 80
+- name: Camtasia
+  level: 25
+- name: Sublime 
+  level: 68
+- name: Jira
+  level: 65
+- name: Infraview
+  level: 80
+- name: Trello
+  level: 90
+- name: Madcap Flare 
+  level: 30
+- name: R Studio
+  level: 28  
+
+
+knowledge: empty 
+
+projects:
+- name: best-resume-ever
+  platform: Vue
+  timeperiod: February 2016
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: masterbunny@technobunnies.com
+  linkedIn: linkedin.com/in/harriebickle/
+  upwork: https://www.upwork.com/fl/harriebickle
+  phone: +27 7932 17160
+  street: Cavendish Street
+  city: Cape Town
+  website: technobunnies.com
+  github: m4sterbunny
+
+portfolio:
+  travelwits: https://travelwits.helpscoutdocs.com/article/4-i-need-help-signing-in
+
+referee1:
+  name: Gordon Cooke
+  companysite: UpStartCommerce.com
+  company: UpStart Commerce
+  email: gordon@upstartcommerce.com
+  city: New York
+  project: REST API Documentation
+
+referee2:
+  name: Professor Yusuf Sayed
+  companysite: https://www.cput.ac.za/research-technology-and-innovation/centres/cite/projects
+  company: CPUT CITE
+  email: sayed.cite@gmail.com
+  phone: +27 71 505 9647
+  city: Cape Town
+  project: Data analyses and Report Editing
+
+
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`

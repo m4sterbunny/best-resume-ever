@@ -74,7 +74,7 @@
 -->
 
 <div class="rightCol">
-<div class="section-headline2">Alignment</div>
+<div class="section-headline">Alignment</div>
     <div class="block" v-for="allignment in person.allignment">
       <div class="block-helper"></div>
       <div class="headline">{{allignment.position}} - {{allignment.company}}</h3>

@@ -38,34 +38,36 @@ experience:
   description: 2nd person in the London office of a Swedish startup. Responsible for digitizing scholarships data to be the hook of the site, manager of the data-entry team (10) & customer service team (2). Onboarded with a SQL database not performing as per spec; quickly developed an equivalent in MS Access, allowing work to continue. 
 
 allignment:
-- lp: Collaboration
-  position: Collaboration
-  company: 3 Startups, Teaching, & Technobunnies 
-  description: Teaching is a collaborative arena where trust must be built with a wide range of stakeholders that own little domain knowledge. Good listening and empathy are key skills that I bring to trust-building. As a freelancer, my customer (i.e. client) management skills have expanded even further with dynamics that involve my being the most technically competent member of the team guiding my client, to my being the least technically-competent member of my team peddling hard to keep up with my client. In all instances, I maintain honesty, including asking all my daft questions. As a technical writer, that often means extracting highly technical information from Product Managers, Developers, and Scrum Masters until I can digest and rework that data independently. 
+- lp: Customer Obsession
+  position: Customer Obsession 
+  company: Freefund, High School Teacher, and Technobunnies 
+  timeperiod: 17 years
+  description: At Freefund I was in charge of customer services and implemented a data-driven approch to customer issue-tracking. Teaching is also a customer-obsessed arena where trust must be built with stakeholders that own little domain knowledge. Good listening and empathy are key skills that I bring to trust-building. As a freelancer, my customer (i.e. client) management skills have expanded even further with dynamics that involve my being the most technically competent member of the team guiding my client, to my being the least technically-competent member of my team peddling hard to keep up with my client. In all instances I maintain honesty, even though that means asking all my daft questions.
 
-- lp: Mentor
-  position: Mentorship
-  company: Freefund, Teaching, & Technobunnies
-  description: As Data Manager at Freefund, I selected members of the data input team and trained them for customer service support. As Technobunnies, I often recruit and manage freelancers for projects. This includes identifying individuals with potential locally who have never freelanced and assisting them to transition to the mindset required to succeed, including providing the "backbone" to adopt a learn and earn philosophy. I am the organizer of a local Meetup group with 500+ members for whom I mentor individuals interested in transitioning to remote freelance work.
+- lp: Ownership
+  position: Ownership, Simplify, Good Instincts
+  company: Freefund
+  timeperiod: 2 years
+  description: Due to SQL server's instability, the Swedish Data Manager could not pass me an empty database to populate as planned. I created an Access equivalent with hacks to manage the multiple connection issues. With rollout still... rolling, I was sent with my solution to the Berlin startup, where I trained and supported the team. This relieved the Swedish Data Manager to fix the SQL server issues. I worked the patch room and acted as IT support in the London office. A typical "own what needs to be done" startup philosophy that I have never put down.
 
 - lp: Right Alot & Learn and Be Curious 
-  position: Build Participation
-  company: Freefund & Teaching
-  description: As a Head of Department at 2 schools and assistant head at 1, I have spent years building participation and support for systems that allow the team to work smarter not harder, that require an initial time investment. As a teacher, I also organized outreach to economically challenged schools.
+  position: Learning and Curiosity
+  company: Technobunnies + Further Education 
+  timeperiod: 5 years + >Decade
+  description: My freelancing career has reinforced a learn and earn philosophy. When I left teaching 5+ years ago, I was competent in the Microsoft suite. Now I work in IDEs, SDKs, and the command line and contribute to clients' repos. I can build static sites; set up and connect cloud VMs, storage, and functions; and massage HTML and CSS. Multiple clients, knowing that I have poor domain knowledge have engaged me to work out how to achieve an outcome, rather than appoint someone else. For example, the indexing of Parasitic Diseases, and reverting data-handling errors for The Tree App.
 
 - lp: Hire & Develop the best & Insist on Highest Standards
-  position: Technical Writing
-  company: Technobunnies 
-  description: To write concise and accessible documentation, I apply principles such as atomization and single sourcing, for example, using _includes for markdown in Jekyll for RestHeart. With most clients, my work undergoes a review cycle, or I am brought in to review another writer's product. For example, with Braze I verified alignment with a new style guide. A big part of my success as a Technical Writer, with over 70 projects completed, is my ability to land neck-deep in someone's software or service and understand that at speed. I have built me self-confidence to the point that I know if I can understand something, then I can assist others to comprehend it also.
+  position: Develop the Best and Insist on High Standards
+  company: Technobunnies + Teaching
+  timeperiod: 5 years + Decade
+  description: Common to both teaching and partnering for work, is the discovery that not everyone is a finisher and that a person's initial vision may crumble (I once included myself in the shaper, not finisher class). For more than 15 years, I have applied my standards to be the bar that I ask other people to reach. I believe I do that with humour, honesty, and by example.
 
 - lp: Think Big
-  position: Contribute to Initiatives
-  company: Technobunnies 
-  description: I maintain a big picture perspective, while sweating the small stuff, for example, reworking the RestHeart documentation and website. There is a wealth of information that I am making far more accessible as a result of restructuring and reorganizing. I am enjoying the collaborative process required to achieve this end.
-
-- lp: Think Big
-  position: Requirements not covered above
-  description: Proven ability to build a culture of documentation within a company – e.g. Rappi, Head of Department (information management and sharing). Proven understanding of modern software development concepts, e.g. case studies with Tangent, Reustle LLC, and architectural overview materials for Distributed Devs and serverless technology articles for oneclick and Lumigo. Self-driven, with strong time management and prioritization skills, for example, 5+ years freelancing remotely, 10 years as a teacher meeting ongoing cycles of hard deadlines. 
+  position: Think Big, Bias for Action, Frugality, Have Backbone
+  company: Freelancing 
+  timeperiod: 5 years
+  description: I didn't start my agency with money, I emerged from a decade of criminally low pay as a teacher. I manage budgets and deadlines well, for example, recruiting and managing a team for a British Council tender. I apply momentum to a project's pace, have a good nose for identifying blockers and good instincts for when to switch mode from perfectionism to a utilitarian approach, for example, accepting a duplication of references rate in Parasitic Diseases.
+  
 
 education:
 
